@@ -7,12 +7,10 @@ public class Main {
         weight[0] = 50;
         weight[1] = 60;
         weight[2] = 70;
-        int december = weight[0];
-        int january = weight[1];
-        int march = weight[2];
-        System.out.println(december);
-        System.out.println(january);
-        System.out.println(march);
+
+        System.out.println(weight[0]);
+        System.out.println(weight[1]);
+        System.out.println(weight[2]);
 
         double [] weightTwo = {1.57, 7.654, 9.986 };
         int[] weightFree = new int [10];
@@ -38,6 +36,13 @@ public class Main {
             else
                 System.out.println(mass[u] + ",");
         }
+        int [] y = new int [10];
+        for (int y = 0; y < numbers.length; y++) {
+            if (numbers[y] % 2 != 0) {
+                numbers[y] = numbers[y] + 1;
+            } else if (numbers[y] % 2 == 0) {
+            }
+            System.out.print(numbers[y] + ", ");
 
 
 
