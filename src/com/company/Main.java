@@ -40,7 +40,7 @@ public class Main {
         for (int y = 0; y < numbers.length; y++) {
             if (numbers[y] % 2 != 0) {
                 numbers[y] = numbers[y] + 1;
-                System.out.print(numbers[y] + ", ");
+                System.out.println(numbers[y] + ", ");
             }
 
     }
